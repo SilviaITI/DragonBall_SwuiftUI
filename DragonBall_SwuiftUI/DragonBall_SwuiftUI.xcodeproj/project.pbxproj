@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61A81DB72B01219900353AD1 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A81DB62B01219900353AD1 /* StatusModel.swift */; };
+		61A81DB92B01229100353AD1 /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A81DB82B01229100353AD1 /* BaseNetwork.swift */; };
+		61A81DBB2B01314900353AD1 /* PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A81DBA2B01314900353AD1 /* PropertyWrapper.swift */; };
 		61BF83E92AFEA5A100B87C6A /* DragonBall_SwuiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF83E82AFEA5A100B87C6A /* DragonBall_SwuiftUIApp.swift */; };
 		61BF83EB2AFEA5A100B87C6A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF83EA2AFEA5A100B87C6A /* Persistence.swift */; };
 		61BF83EE2AFEA5A100B87C6A /* DragonBall_SwuiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61BF83EC2AFEA5A100B87C6A /* DragonBall_SwuiftUI.xcdatamodeld */; };
@@ -16,6 +19,11 @@
 		61BF84002AFEA5A300B87C6A /* DragonBall_SwuiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF83FF2AFEA5A300B87C6A /* DragonBall_SwuiftUITests.swift */; };
 		61BF840A2AFEA5A300B87C6A /* DragonBall_SwuiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF84092AFEA5A300B87C6A /* DragonBall_SwuiftUIUITests.swift */; };
 		61BF840C2AFEA5A300B87C6A /* DragonBall_SwuiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF840B2AFEA5A300B87C6A /* DragonBall_SwuiftUIUITestsLaunchTests.swift */; };
+		61C2E8B32AFF8AC7003B6B68 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2E8B22AFF8AC7003B6B68 /* LoginView.swift */; };
+		61C2E8B72AFF8CB4003B6B68 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 61C2E8B62AFF8CB4003B6B68 /* KeychainSwift */; };
+		61C2E8BF2AFF96B8003B6B68 /* KeyChainProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2E8BE2AFF96B8003B6B68 /* KeyChainProvider.swift */; };
+		61C2E8C12AFFA041003B6B68 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2E8C02AFFA041003B6B68 /* RootViewModel.swift */; };
+		61E3CF792AFFECC200828FC2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61E3CF782AFFECC200828FC2 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61A81DB62B01219900353AD1 /* StatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusModel.swift; sourceTree = "<group>"; };
+		61A81DB82B01229100353AD1 /* BaseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetwork.swift; sourceTree = "<group>"; };
+		61A81DBA2B01314900353AD1 /* PropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapper.swift; sourceTree = "<group>"; };
 		61BF83E52AFEA5A100B87C6A /* DragonBall_SwuiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBall_SwuiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BF83E82AFEA5A100B87C6A /* DragonBall_SwuiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBall_SwuiftUIApp.swift; sourceTree = "<group>"; };
 		61BF83EA2AFEA5A100B87C6A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		61BF84052AFEA5A300B87C6A /* DragonBall_SwuiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonBall_SwuiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BF84092AFEA5A300B87C6A /* DragonBall_SwuiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBall_SwuiftUIUITests.swift; sourceTree = "<group>"; };
 		61BF840B2AFEA5A300B87C6A /* DragonBall_SwuiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBall_SwuiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61C2E8B22AFF8AC7003B6B68 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		61C2E8B42AFF8B1F003B6B68 /* DragonBall-SwuiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DragonBall-SwuiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		61C2E8BE2AFF96B8003B6B68 /* KeyChainProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainProvider.swift; sourceTree = "<group>"; };
+		61C2E8C02AFFA041003B6B68 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		61E3CF782AFFECC200828FC2 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61C2E8B72AFF8CB4003B6B68 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +116,19 @@
 		61BF83E72AFEA5A100B87C6A /* DragonBall_SwuiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				61C2E8B42AFF8B1F003B6B68 /* DragonBall-SwuiftUI-Info.plist */,
+				61C2E8B02AFF8A99003B6B68 /* View */,
+				61C2E8AF2AFF8A8D003B6B68 /* ViewModels */,
+				61C2E8AE2AFF8A85003B6B68 /* Tools */,
+				61C2E8AD2AFF8A7D003B6B68 /* Services */,
+				61C2E8AC2AFF8A71003B6B68 /* Models */,
+				61C2E8AB2AFF8A3E003B6B68 /* Old */,
 				61BF83E82AFEA5A100B87C6A /* DragonBall_SwuiftUIApp.swift */,
-				61BF83EA2AFEA5A100B87C6A /* Persistence.swift */,
-				61BF83EF2AFEA5A100B87C6A /* ContentView.swift */,
 				61BF83F12AFEA5A300B87C6A /* Assets.xcassets */,
 				61BF83F32AFEA5A300B87C6A /* DragonBall_SwuiftUI.entitlements */,
 				61BF83EC2AFEA5A100B87C6A /* DragonBall_SwuiftUI.xcdatamodeld */,
 				61BF83F42AFEA5A300B87C6A /* Preview Content */,
+				61E3CF782AFFECC200828FC2 /* Localizable.strings */,
 			);
 			path = DragonBall_SwuiftUI;
 			sourceTree = "<group>";
@@ -135,6 +158,64 @@
 			path = DragonBall_SwuiftUIUITests;
 			sourceTree = "<group>";
 		};
+		61C2E8AB2AFF8A3E003B6B68 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				61BF83EF2AFEA5A100B87C6A /* ContentView.swift */,
+				61BF83EA2AFEA5A100B87C6A /* Persistence.swift */,
+			);
+			path = Old;
+			sourceTree = "<group>";
+		};
+		61C2E8AC2AFF8A71003B6B68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61C2E8BE2AFF96B8003B6B68 /* KeyChainProvider.swift */,
+				61A81DB62B01219900353AD1 /* StatusModel.swift */,
+				61A81DBA2B01314900353AD1 /* PropertyWrapper.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		61C2E8AD2AFF8A7D003B6B68 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				61A81DB82B01229100353AD1 /* BaseNetwork.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		61C2E8AE2AFF8A85003B6B68 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		61C2E8AF2AFF8A8D003B6B68 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				61C2E8C02AFFA041003B6B68 /* RootViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		61C2E8B02AFF8A99003B6B68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61C2E8B12AFF8A9F003B6B68 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61C2E8B12AFF8A9F003B6B68 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				61C2E8B22AFF8AC7003B6B68 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +232,9 @@
 			dependencies = (
 			);
 			name = DragonBall_SwuiftUI;
+			packageProductDependencies = (
+				61C2E8B62AFF8CB4003B6B68 /* KeychainSwift */,
+			);
 			productName = DragonBall_SwuiftUI;
 			productReference = 61BF83E52AFEA5A100B87C6A /* DragonBall_SwuiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -221,8 +305,12 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 61BF83DC2AFEA5A100B87C6A;
+			packageReferences = (
+				61C2E8B52AFF8CB4003B6B68 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 61BF83E62AFEA5A100B87C6A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -240,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61BF83F62AFEA5A300B87C6A /* Preview Assets.xcassets in Resources */,
+				61E3CF792AFFECC200828FC2 /* Localizable.strings in Resources */,
 				61BF83F22AFEA5A300B87C6A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,8 +355,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				61BF83E92AFEA5A100B87C6A /* DragonBall_SwuiftUIApp.swift in Sources */,
+				61A81DB72B01219900353AD1 /* StatusModel.swift in Sources */,
+				61A81DBB2B01314900353AD1 /* PropertyWrapper.swift in Sources */,
+				61C2E8C12AFFA041003B6B68 /* RootViewModel.swift in Sources */,
+				61A81DB92B01229100353AD1 /* BaseNetwork.swift in Sources */,
 				61BF83EB2AFEA5A100B87C6A /* Persistence.swift in Sources */,
 				61BF83F02AFEA5A100B87C6A /* ContentView.swift in Sources */,
+				61C2E8B32AFF8AC7003B6B68 /* LoginView.swift in Sources */,
+				61C2E8BF2AFF96B8003B6B68 /* KeyChainProvider.swift in Sources */,
 				61BF83EE2AFEA5A100B87C6A /* DragonBall_SwuiftUI.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +527,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DragonBall-SwuiftUI-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -442,7 +538,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -470,6 +566,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DragonBall-SwuiftUI-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -480,7 +577,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -625,6 +722,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		61C2E8B52AFF8CB4003B6B68 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 20.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		61C2E8B62AFF8CB4003B6B68 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61C2E8B52AFF8CB4003B6B68 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		61BF83EC2AFEA5A100B87C6A /* DragonBall_SwuiftUI.xcdatamodeld */ = {
