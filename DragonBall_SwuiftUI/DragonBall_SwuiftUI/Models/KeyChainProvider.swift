@@ -7,6 +7,7 @@
 
 import KeychainSwift
 // hay que guardar el value en un utf8
+@discardableResult
 func saveKC(key: String, value: String) -> Bool {
     if let data = value.data(using: .utf8) {
         let kc = KeychainSwift()

@@ -16,6 +16,7 @@ final class RootViewModel: ObservableObject {
     
     // token del login
     @Published var tokenJWT: String = ""
+    
     var subscribers = Set<AnyCancellable>()
     // revisa si el token ya está almacenado en el keychain
     func logedUserControl() {
@@ -44,7 +45,7 @@ final class RootViewModel: ObservableObject {
                 }
             } receiveValue: { token in
                 self.tokenJWT = token
-                print("llega el token")
+                print("llega el token \(token)")
             }
             .store(in: &subscribers)
 

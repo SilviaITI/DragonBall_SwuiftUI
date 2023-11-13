@@ -10,8 +10,8 @@ import SwiftUI
 struct LoginView: View {
     
     @EnvironmentObject var rootViewModel: RootViewModel
-    @State private var email = "silvia.casanovamartinez@gmail.com"
-    @State private var password = "Goku2021"
+    @State private var email = ""
+    @State private var password = ""
     var body: some View {
         ZStack {
             // imagen de fondo
